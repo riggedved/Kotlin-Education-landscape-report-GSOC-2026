@@ -1,0 +1,22 @@
+﻿Year,Metric,Value,Unit,Region / Scope,Source,Confidence,Notes
+2017,Universities teaching Kotlin (est.),~10,Count,Global,JetBrains blog,Inferred,Kotlin 1.0 released Feb 2016; early adoption
+2018,Universities teaching Kotlin (est.),~40,Count,Global,JetBrains blog,Inferred,Google I/O 2017 Android announcement drove adoption
+2019,Universities teaching Kotlin (est.),~100,Count,Global,JetBrains blog,Inferred,Rapid post-Google adoption
+2019,Kotlin declared preferred language for Android,Yes,Boolean,Global,Google I/O 2019,Verified,Major catalyst for education adoption
+2020,Universities teaching Kotlin (est.),~150,Count,Global,JetBrains blog,Inferred,COVID drove online Kotlin course demand
+2021,Universities teaching Kotlin (verified by JetBrains),190+,Count,Global,JetBrains Kotlin blog (Jul 2021),Verified,25 of top 100 in THE rankings
+2021,Top-100 ranked universities teaching Kotlin,25,Count,Global,JetBrains Kotlin blog (Jul 2021),Verified,Times Higher Education ranking
+2021,Kotlin user experience growth (4+ yrs),3x,Multiple,Global,JetBrains DevEco 2023,Verified,Compared to 2021 baseline
+2022,Kotlin ranked top-paying language,Top 3,Rank,Global,JetBrains DevEco 2022,Verified,Alongside Scala and Go
+2023,Universities teaching Kotlin (verified by JetBrains),300+,Count,Global,kotlinlang.org/education (Jun 2023),Verified,Major milestone – 58% growth from 190 in 2021
+2023,Kotlin ranked top-paying language,Top 3,Rank,Global,JetBrains DevEco 2023,Verified,"Scala, Go, Kotlin top 3"
+2023,"Kotlin learners (new, <6 months experience)",Rising,Trend,Global,JetBrains DevEco 2023,Verified,Significant increase in new learners
+2023,Primary Kotlin use case: Android + Server-side,66%,Percent,Global,JetBrains DevEco 2023,Verified,Of Kotlin developers surveyed
+2024,Kotlin learners in JetBrains Academy CS survey,Growing,Trend,Global,JetBrains CS Learning Curve 2024,Verified,Significant interest in newer languages incl. Kotlin
+2024,Kotlin gaining popularity especially in Europe,Yes,Boolean,Europe,JetBrains CS Learning Curve 2024,Verified,Alongside Rust
+2024,Kotlin ranked top-paying language,Top 4,Rank,Global,JetBrains DevEco 2024,Verified,"Scala, Go, Kotlin, Rust"
+2024,Java learning popular in South Korea and India,38–39%,Percent,South Asia / East Asia,JetBrains CS Learning Curve 2024,Verified,Kotlin likely follows given Java-to-Kotlin transition trend
+2025,Kotlin steady market share growth,Steady,Trend,Global,JetBrains DevEco 2025,Verified,"Rust, Go, Kotlin all gaining steadily"
+2025,"TypeScript, Rust, Go lead JetBrains Language Promise Index",Top 3,Rank,Global,JetBrains DevEco 2025,Verified,Kotlin not in top 3 but shows steady growth
+2025,Kotlin Multiplatform (KMP) stable release,Yes,Boolean,Global,JetBrains blog,Verified,KMP moving from Beta; expect education adoption to follow
+2025,KMP education adoption (est.),Early,Stage,Global,Inferred from JetBrains DevEco 2023–2025,Inferred,KMP courses beginning to appear on Udemy/JetBrains Academy

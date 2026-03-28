@@ -1,0 +1,21 @@
+﻿Course Name,Platform,Instructor / Provider,Level,Topics Covered,Use Case,Duration (hrs),Paid/Free,Last Updated,Learner Rating,Source,Confidence
+Kotlin for Java Developers,Coursera,JetBrains,Intermediate,"Null safety, extensions, coroutines, collections",General / Backend,21,Paid,2023,4.7/5,coursera.org,Verified
+Android Basics with Compose,Coursera,Google,Beginner,"Kotlin basics, Jetpack Compose, navigation, data",Android,40,Free,2024,4.8/5,coursera.org,Verified
+Kotlin Bootcamp for Programmers,Coursera,Google / Udacity,Beginner,"Syntax, OOP, functional programming, lambdas",General,8,Free,2022,4.6/5,coursera.org,Verified
+Advanced Android with Kotlin,Coursera,Google / Udacity,Advanced,"Architecture, testing, notifications, animations",Android,40,Free,2022,4.5/5,coursera.org,Verified
+The Complete Android 14 & Kotlin Masterclass,Udemy,Denis Panjuta,Beginner,"Kotlin syntax, Jetpack Compose, Room, Retrofit, Maps",Android,50,Paid,2024,4.7/5,udemy.com,Verified
+Android App Development Masterclass,Udemy,Tim Buchalka,Beginner,"Kotlin, Android Studio, SQLite, RecyclerView",Android,60,Paid,2023,4.6/5,udemy.com,Verified
+Kotlin Coroutines & Flow,Udemy,Philipp Lackner,Advanced,"Coroutines, Flow, StateFlow, lifecycle awareness",Android / Backend,14,Paid,2024,4.9/5,udemy.com,Verified
+Kotlin Programming – Complete Course,Udemy,Neel Kamath,Beginner,"Syntax, functions, OOP, file I/O, generics",General,20,Paid,2023,4.5/5,udemy.com,Verified
+Kotlin Developer Track,JetBrains Academy / Hyperskill,JetBrains,Beginner,"128 hrs of lessons, projects, coroutines, OOP",General / Backend,128,Paid,2025,4.8/5,hyperskill.org,Verified
+AtomicKotlin Course,JetBrains Academy,Bruce Eckel / JetBrains,Intermediate,"Atoms of Kotlin, extensions, generics, DSL",General,30,Paid,2024,4.7/5,hyperskill.org,Verified
+Kotlin Coroutines Deep Dive,JetBrains Academy,Marcin Moskała,Advanced,"Coroutines internals, structured concurrency, testing",Backend / Android,18,Paid,2024,4.8/5,hyperskill.org,Verified
+Kotlin Essential Training,LinkedIn Learning,Nate Ebel,Beginner,"Variables, functions, OOP, null safety",General,3,Paid,2023,4.5/5,linkedin.com/learning,Verified
+Android Development with Kotlin,edX,Google,Beginner,"Kotlin basics, Android architecture, Compose",Android,30,Free,2023,4.6/5,edx.org,Verified
+Kotlin and Android: Beyond the Basics,Pluralsight,Kevin Jones,Intermediate,"Coroutines, architecture patterns, testing",Android,7,Paid,2023,4.4/5,pluralsight.com,Verified
+Programming in Kotlin (University Toolkit),kotlinlang.org,JetBrains,Beginner,"Slides, notes, assessments for educators",Education / General,,Free,2024,N/A,kotlinlang.org/education,Verified
+Kotlin Multiplatform Mobile,Udemy,Philipp Lackner,Advanced,"KMP setup, shared logic, iOS + Android targets",Multiplatform,12,Paid,2024,4.8/5,udemy.com,Verified
+Server-Side Development with Ktor,JetBrains Academy,JetBrains,Intermediate,"Routing, serialization, auth, deployment",Backend,20,Paid,2024,4.7/5,hyperskill.org,Verified
+Kotlin for Data Science,Coursera,JetBrains / Stepik,Intermediate,"DataFrames, Kandy charts, Jupyter notebooks",Data Science,15,Free,2024,4.3/5,coursera.org,Inferred
+Learn Kotlin (Interactive),Codecademy,Codecademy,Beginner,"Syntax, conditionals, functions, OOP basics",General,10,Paid,2023,4.2/5,codecademy.com,Verified
+Kotlin Playground Tutorials,kotlinlang.org,JetBrains,Beginner,"Browser-based code snippets, guided exercises",General,5,Free,2024,N/A,kotlinlang.org,Verified

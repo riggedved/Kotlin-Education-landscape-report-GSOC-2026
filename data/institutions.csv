@@ -1,0 +1,21 @@
+﻿Institution Name,Country,Region,Type,Kotlin Course(s),Use Case Focus,Year Introduced,Source,Confidence,Notes
+Stanford University,USA,North America,University,"CS106A (intro), Android Dev elective","Android, Intro Programming",2019,kotlinlang.org/education,Verified,Part of 300+ universities on JetBrains map
+MIT,USA,North America,University,Mobile App Development (6.S062),"Android, Mobile",2020,mit.edu course catalogue,Verified,Elective within EECS dept
+University of Toronto,Canada,North America,University,CSC207 – Software Design,"OOP, Software Engineering",2021,kotlinlang.org/education,Verified,
+TU Munich,Germany,Europe,University,Praktikum iOS/Android,"Android, Mobile",2020,tum.de course catalogue,Verified,Strong KMP interest reported
+Delft University of Technology,Netherlands,Europe,University,CSE2115 – Software Engineering Methods,Software Engineering,2021,tudelft.nl,Verified,
+University of Warsaw,Poland,Europe,University,Programowanie w Kotlinie,General Programming,2022,kotlinlang.org/education,Inferred,Listed on JetBrains education map
+IIT Bombay,India,South Asia,University,CS699 – Mobile Computing,"Android, Mobile",2021,iitb.ac.in,Inferred,Kotlin used alongside Java
+IIT Delhi,India,South Asia,University,COL333 – Android App Development,Android,2022,iitd.ac.in,Inferred,
+NUS Singapore,Singapore,Southeast Asia,University,CS3217 – Software Engineering on Platforms,"Mobile, Software Engineering",2020,nus.edu.sg,Verified,
+University of Melbourne,Australia,Oceania,University,COMP30022 – IT Project,"Android, Project-based",2021,unimelb.edu.au,Inferred,
+University of São Paulo,Brazil,Latin America,University,MAC0321 – Laboratório de Programação,"OOP, Android",2022,usp.br,Inferred,Growing Kotlin adoption in Brazil
+Universidad Politécnica Madrid,Spain,Europe,University,Desarrollo de Apps Android,Android,2021,upm.es,Inferred,
+Seoul National University,South Korea,East Asia,University,M1522.001400 – Android Programming,Android,2020,snu.ac.kr,Verified,South Korea has high CS learner engagement
+Harbour.Space University,Spain,Europe,University,Android Development with Kotlin,"Android, Mobile",2020,harbour.space,Verified,Partnered with JetBrains Academy
+Ironhack,Spain/Global,Europe,Bootcamp,Android Development Bootcamp,Android,2021,ironhack.com,Verified,Multi-city bootcamp
+Le Wagon,France/Global,Europe,Bootcamp,Mobile Track (Kotlin),"Android, Mobile",2022,lewagon.com,Inferred,Available in select cities
+Flatiron School,USA,North America,Bootcamp,Android Engineering Track,Android,2021,flatironschool.com,Inferred,
+Lambda School (BloomTech),USA,North America,Bootcamp,Android Development with Kotlin,Android,2020,bloomtech.com,Verified,Renamed from Lambda School in 2022
+University of Cape Town,South Africa,Africa,University,CSC3002F – Mobile Computing,"Android, Mobile",2023,uct.ac.za,Inferred,Early adopter in sub-Saharan Africa
+American University of Cairo,Egypt,Africa,University,CSCE 4901 – Mobile Application Development,Android,2023,aucegypt.edu,Inferred,
