@@ -9,13 +9,14 @@ This repository contains my GSoC 2026 proposal and preliminary research for the 
 
 **Ved Saxena** | B.Tech CSE, AKTU, India | [vedsaxena19458@gmail.com](mailto:vedsaxena19458@gmail.com) | [github.com/riggedved](https://github.com/riggedved)
 
-I have been programming in Kotlin for the past year, primarily in Android Development. Java was my first programming language, introduced to me in high school, back then I hadn't even heard of Kotlin.
+I have been programming in Kotlin for the past year, primarily in Android Development. Java was my first programming language, introduced to me in high school, back then I hadn't even heard of Kotlin. 
+I have forever had an urge to be different. Most of my college was doing web development and I knew for a fact I’m not gonna do that. I started exploring and found out not many people are practicing app development here. 
+So, I started app development and got introduced to Kotlin and how it's related to Java, a big plus point for me. I, primarily, referred to YouTube channels, such as Philipp Lackner and Cheezy Code, as my University didn't have any particular course for it (making me realise how big of a gap actually exists in the education sector regarding Kotlin).
+Since my first year in college, I have been throwing different things at the wall to see which one sticks, and cinematography is something I got really interested in. I started photography and then filming videos itself and I’m really proud to share that by the time someone would be reading this proposal, my first short film would be out.
+In this whole process I figured out, writing is amongst the best eigen skills one could learn and I was already writing scripts for my videos, so why not double down on it.
+I started working as a content manager at Mathongo and now I’m working as a content writer at Legal4sure, where I independently research technical regulatory topics and publish blogs on them.
+All of this just makes me a perfect fit for this project and I want to give in more than my best efforts and also to actually contribute to narrowing the gap between academic teaching and practical application. 
 
-I have forever had an urge to be different. Most of my college was doing web development and I knew for a fact I'm not going to do that. I started exploring and found out not many people are practicing app development here. So, I started app development, got introduced to Kotlin, and realized how its relation to Java was a big plus point for me. I primarily referred to YouTube channels like Philipp Lackner and Cheezy Code, as my university didn't have any particular course for it, which made me realize how big of a gap actually exists in the education sector regarding Kotlin.
-
-Since my first year in college, I have been throwing different things at the wall to see which one sticks. Cinematography is something I got really interested in. I started photography, then filming videos, and I'm really proud to share that by the time someone reads this, my first short film will be out. In this whole process I figured out that writing is among the best skills one could learn, and I was already writing scripts for my videos, so why not double down on it. I started working as a content manager at Mathongo and now work as a content writer at Legal4Sure, where I independently research technical regulatory topics and publish blogs on them.
-
-All of this makes me a strong fit for this project, and I want to contribute to actually narrowing the gap between academic teaching and practical application of Kotlin.
 
 ---
 
@@ -69,64 +70,5 @@ As part of my proposal, I have already begun preliminary data collection. The sa
 Every row is tagged with a **confidence level** - Verified, Inferred, or Self-reported and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
 
 > **Note:** The educators dataset contains illustrative data modelled on real community discussions, not live survey responses. Primary data collection from real educators will begin in Week 1 of the GSoC project.
-
----
-
-## Research Design
-
-I use a **mixed-methods approach** combining quantitative data (counts, distributions, trends) with qualitative insights (educator experiences, curriculum gaps) because some questions require measurement and others require context.
-
-**Three core research questions:**
-1. Where is Kotlin taught? - institutions, geographies, platforms
-2. How is Kotlin taught? - curriculum depth, tools, course levels
-3. Where are the gaps? - underserved regions, missing topics, adoption barriers
-
-**Scope covers:**
-- Degree-granting universities
-- Online learning platforms (Coursera, Udemy, JetBrains Academy, Google Developers Program, etc.)
-- Coding bootcamps
-- Self-learning guides
-
----
-
-## Data Retrieval Strategy
-
-**Level 1 - Primary Sources (collected directly)**
-- Educator surveys via a structured Google Form targeting university teachers, bootcamp facilitators, and online course developers
-- Targeted outreach to CS department heads at universities worldwide, especially underrepresented regions
-- Online interviews with Kotlin educators
-
-**Level 2 - Secondary Sources**
-- University course catalogues
-- JetBrains Kotlin Ecosystem Survey
-- Course listings on Coursera, Udemy, JetBrains Academy, etc.
-- Google Scholar for academic papers on Kotlin in education
-- GitHub repositories tagged with Kotlin and education-related topics
-- Community forums - Kotlin Slack, Reddit r/Kotlin, Stack Overflow trends
-
-**Level 3 - Web Research**
-- LinkedIn search for instructors with Kotlin teaching experience
-- Cross-referencing data across sources to verify and fill gaps
-
----
-
-## Project Timeline
-
-| Period | Tasks | Hours |
-|---|---|---|
-| **Week 1–2** | Finalize research questions and survey. Identify 50+ target institutions. Set up dataset templates. Begin secondary source cataloguing. | 20 hrs |
-| **Week 3–5** | Launch educator surveys and outreach. Collect course listings from all major platforms. Search university catalogues. Run GitHub and academic paper search. | 60 hrs |
-| **Week 6–7** | Clean and structure all collected data. Resolve duplicates, fill gaps via follow-up outreach, tag and document all sources. | 30 hrs |
-| **Week 8–9** | Analyze datasets - geographic distribution, curriculum depth, platform trends, gap analysis. Create charts and visualizations. | 35 hrs |
-| **Week 10** | Write the Kotlin in Education report. Format and publish datasets. | 25 hrs |
-| **Buffer** | Mentor review cycles, revisions, and unexpected delays. | 5 hrs |
-
----
-
-## Expected Deliverables
-
-- **Kotlin in Education Report** - a structured, publicly available document covering geographic trends, platform analysis, curriculum gaps, and strategic recommendations
-- **Four Reusable Datasets (CSV)** - institutions, courses, educators, and trends, available for internal and public use
-- **Public GitHub Repository** - all methodology, data, and documentation published openly
 
 ---
