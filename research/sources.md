@@ -8,8 +8,8 @@ This document lists every source used in building the preliminary sample dataset
 
 | Level | Meaning |
 |---|---|
-| **Verified** | Directly confirmed from an official source — university website, JetBrains blog, platform listing |
-| **Inferred** | Reasonably concluded from indirect evidence — JetBrains education map pin, regional trend data, course title |
+| **Verified** | Directly confirmed from an official source - university website, JetBrains blog, platform listing |
+| **Inferred** | Reasonably concluded from indirect evidence - JetBrains education map, regional trend data, course title |
 | **Self-reported** | Provided by an educator via survey or interview (Educators sheet is currently illustrative) |
 
 ---
@@ -26,7 +26,7 @@ These are the most credible sources in the dataset and form the backbone of the 
 | JetBrains Developer Ecosystem Survey 2025 | https://www.jetbrains.com/lp/devecosystem-2025/ | Trends | Language Promise Index introduced |
 | JetBrains CS Learning Curve Report 2024 | https://www.jetbrains.com/lp/devecosystem-2024/learning/ | Trends, Educators | 23,991 respondents on CS learning globally |
 | JetBrains Kotlin Blog | https://blog.jetbrains.com/kotlin/ | Trends, Institutions | Key milestone announcements |
-| JetBrains Kotlin Education Blog Post (Jul 2021) | https://blog.jetbrains.com/education/2021/07/ | Trends | "190+ universities, 25 of top 100 THE ranking" |
+| JetBrains Kotlin Education Blog Post (Jul 2021) | https://blog.jetbrains.com/education/2021/07/ | Trends | 190+ universities, 25 of top 100 THE ranking |
 | JetBrains Hyperskill / Academy | https://hyperskill.org | Courses | Course listings verified directly |
 | Google I/O 2019 — Kotlin First Announcement | https://android-developers.googleblog.com/2019/05/google-io-2019-empowering-developers-to-build-experiences-on-Android-Play.html | Trends | Kotlin declared preferred language for Android |
 
@@ -55,7 +55,7 @@ Sources used to verify or infer Kotlin course offerings in the **institutions** 
 
 | Institution | Country | Source URL | Confidence |
 |---|---|---|---|
-| Stanford University | USA | https://kotlinlang.org/education/ + cs.stanford.edu | Verified |
+| Stanford University | USA | https://kotlinlang.org/education/ | Verified |
 | MIT | USA | https://student.mit.edu/catalog/ | Verified |
 | University of Toronto | Canada | https://kotlinlang.org/education/ | Verified |
 | TU Munich | Germany | https://www.tum.de/en/studies/degree-programs | Verified |
@@ -84,12 +84,12 @@ These sources informed the **educators** sheet (currently illustrative) and will
 
 | Source | URL | How Used |
 |---|---|---|
-| Kotlin Slack — #education channel | https://kotlinlang.slack.com | Observed educator discussions, common pain points |
+| Kotlin Slack - #education channel | https://kotlinlang.slack.com | Observed educator discussions, common pain points |
 | Reddit r/Kotlin | https://www.reddit.com/r/Kotlin/ | Threads on teaching Kotlin, beginner experiences |
-| Stack Overflow — Kotlin tag | https://stackoverflow.com/questions/tagged/kotlin | Trend data, educator and learner Q&A patterns |
-| YouTube — Philipp Lackner | https://www.youtube.com/@PhilippLackner | Referenced as commonly used learning resource by educators |
-| YouTube — Cheezy Code | https://www.youtube.com/@CheezyCode | Referenced as commonly used learning resource in South Asia |
-| Google Codelabs — Kotlin/Android | https://developer.android.com/courses | Widely referenced by educators in survey responses |
+| Stack Overflow - Kotlin tag | https://stackoverflow.com/questions/tagged/kotlin | Trend data, educator and learner Q&A patterns |
+| YouTube - Philipp Lackner | https://www.youtube.com/@PhilippLackner | Referenced as commonly used learning resource by educators |
+| YouTube - Cheezy Code | https://www.youtube.com/@CheezyCode | Referenced as commonly used learning resource in South Asia |
+| Google Codelabs - Kotlin/Android | https://developer.android.com/courses | Widely referenced by educators in survey responses |
 
 ---
 
@@ -97,9 +97,9 @@ These sources informed the **educators** sheet (currently illustrative) and will
 
 The **institutions**, **courses**, and **trends_over_time** sheets are built from real, verifiable sources listed above. Every row includes a Source column and a Confidence level.
 
-The **educators** sheet is currently **illustrative** — the 15 respondent rows are modelled on real patterns observed in community forums, JetBrains survey reports, and published discussions about teaching Kotlin. They are not live survey responses. The confidence level for all rows in that sheet is marked "Self-reported (survey)" to indicate the format real responses will take when primary data collection begins in Week 1 of the project.
+The **educators** sheet is currently **illustrative** - the 15 respondent rows are modelled on real patterns observed in community forums, JetBrains survey reports, and published discussions about teaching Kotlin. They are not live survey responses. The confidence level for all rows in that sheet is marked "Self-reported (survey)" to indicate the format real responses will take when primary data collection begins in Week 1 of the project.
 
-Primary data collection from real educators — via a structured survey and targeted outreach — is a core deliverable of the GSoC project itself.
+Primary data collection from real educators via a structured survey and targeted outreach is a core deliverable of the GSoC project itself.
 
 ---
 
