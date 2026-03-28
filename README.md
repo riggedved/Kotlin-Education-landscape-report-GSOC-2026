@@ -26,7 +26,6 @@ kotlin-education-landscape/
 │
 ├── README.md
 │
-|
 ├── data/
 │   └── kotlin_education_sample_dataset.xlsx      ← Preliminary sample dataset (4 sheets)
 │
@@ -36,7 +35,7 @@ kotlin-education-landscape/
 
 ---
 
-## Sample Dataset — What's Inside
+## Sample Dataset - What's Inside
 
 As part of my proposal, I have already begun preliminary data collection. The sample dataset contains four sheets:
 
@@ -47,7 +46,7 @@ As part of my proposal, I have already begun preliminary data collection. The sa
 | **educators** | 15 | Illustrative survey-style data based on commonly reported educator experiences |
 | **trends_over_time** | 21 | Year-by-year Kotlin education growth data (2017–2025), sourced from JetBrains surveys |
 
-Every row is tagged with a **confidence level** — Verified, Inferred, or Self-reported — and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
+Every row is tagged with a **confidence level** - Verified, Inferred, or Self-reported and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
 
 > **Note:** The Educators sheet contains illustrative data modelled on real community discussions, not live survey responses. Primary data collection from real educators will begin in Week 1 of the GSoC project.
 
@@ -57,12 +56,12 @@ Every row is tagged with a **confidence level** — Verified, Inferred, or Self-
 
 I'm using a **mixed-methods approach** combining:
 
-- **Quantitative data** — counts, distributions, platform metrics, year-on-year trends
-- **Qualitative data** — educator surveys, interviews, community discussions
+- **Quantitative data** - counts, distributions, platform metrics, year-on-year trends
+- **Qualitative data** - educator surveys, interviews, community discussions
 
 **Three core research questions:**
-1. Where is Kotlin taught? — institutions, geographies, platforms
-2. How is Kotlin taught? — curriculum depth, tools, course levels
-3. Where are the gaps? — underserved regions, missing topics, adoption barriers
+1. Where is Kotlin taught? - institutions, geographies, platforms
+2. How is Kotlin taught? - curriculum depth, tools, course levels
+3. Where are the gaps? - underserved regions, missing topics, adoption barriers
 
 
