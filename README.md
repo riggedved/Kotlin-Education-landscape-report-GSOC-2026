@@ -70,7 +70,7 @@ As part of my proposal, I have already begun preliminary data collection. The sa
 ---
 # Sources & References
 
-This document lists every source used in building the preliminary sample dataset and the research design outlined in the proposal. Each source is categorized, linked, and mapped to the dataset sheet it supports.
+This section lists every source used in building the preliminary sample dataset and the research design outlined in the proposal. Each source is categorized, linked, and mapped to the dataset sheet it supports.
 
 ---
 
