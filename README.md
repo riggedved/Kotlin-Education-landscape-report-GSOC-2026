@@ -70,7 +70,7 @@ As part of my proposal, I have already begun preliminary data collection. The sa
 | `educators.csv` | 15 | Illustrative survey-style data based on commonly reported educator experiences |
 | `trends_over_time.csv` | 21 | Year-by-year Kotlin education growth (2017–2025), sourced from JetBrains surveys |
 
-Every row is tagged with a **confidence level** - Verified, Inferred, or Self-reported and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
+Every row is tagged with a **confidence level** - Verified, Inferred, or Self reported and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
 
 > **Note:** The educators dataset contains illustrative data modelled on real community discussions, not live survey responses. Primary data collection from real educators will begin in Week 1 of the GSoC project.
 
