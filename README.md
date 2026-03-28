@@ -1,7 +1,21 @@
 # Kotlin Education Landscape Report
 ### Google Summer of Code 2026 - Kotlin Foundation
 
-This repository contains my preliminary research for the **Kotlin in Education Landscape Report** - a project under the Kotlin Foundation that aims to create the first structured, data-driven overview of where and how Kotlin is taught worldwide.
+This repository contains my GSoC 2026 proposal and preliminary research for the **Kotlin in Education Landscape Report**, a project under the Kotlin Foundation that aims to create the first structured, data-driven overview of where and how Kotlin is taught worldwide.
+
+---
+
+## About Me
+
+**Ved Saxena** | B.Tech CSE, AKTU, India | [vedsaxena19458@gmail.com](mailto:vedsaxena19458@gmail.com) | [github.com/riggedved](https://github.com/riggedved)
+
+I have been programming in Kotlin for the past year, primarily in Android Development. Java was my first programming language, introduced to me in high school, back then I hadn't even heard of Kotlin.
+
+I have forever had an urge to be different. Most of my college was doing web development and I knew for a fact I'm not going to do that. I started exploring and found out not many people are practicing app development here. So, I started app development, got introduced to Kotlin, and realized how its relation to Java was a big plus point for me. I primarily referred to YouTube channels like Philipp Lackner and Cheezy Code, as my university didn't have any particular course for it, which made me realize how big of a gap actually exists in the education sector regarding Kotlin.
+
+Since my first year in college, I have been throwing different things at the wall to see which one sticks. Cinematography is something I got really interested in. I started photography, then filming videos, and I'm really proud to share that by the time someone reads this, my first short film will be out. In this whole process I figured out that writing is among the best skills one could learn, and I was already writing scripts for my videos, so why not double down on it. I started working as a content manager at Mathongo and now work as a content writer at Legal4Sure, where I independently research technical regulatory topics and publish blogs on them.
+
+All of this makes me a strong fit for this project, and I want to contribute to actually narrowing the gap between academic teaching and practical application of Kotlin.
 
 ---
 
@@ -15,53 +29,104 @@ Kotlin is growing rapidly in educational institutions globally, but no comprehen
 - Delivering a public-facing **Kotlin in Education** report with strategic recommendations for the Kotlin Foundation
 
 **Project size:** Medium (175 hours)
-**Organization:** Kotlin Foundation
+**Organization:** Kotlin Foundation / JetBrains
 
 ---
 
 ## Repository Structure
 
 ```
-kotlin-education-landscape/
+Kotlin-Education-Landscape-Report-GSOC-2026/
 │
 ├── README.md
 │
+├── proposal/
+│   └── gsoc_proposal.pdf            ← Full GSoC proposal document
+│
 ├── data/
-│   └── kotlin_education_sample_dataset.xlsx      ← Preliminary sample dataset (4 sheets)
+│   ├── institutions.csv             ← Universities and bootcamps teaching Kotlin
+│   ├── courses.csv                  ← Online platform course listings
+│   ├── educators.csv                ← Educator survey-style data
+│   └── trends_over_time.csv         ← Year-by-year Kotlin education growth
 │
 └── research/
-    └── sources.md                                ← All sources used in research and dataset
+    └── sources.md                   ← All sources used in research and dataset
 ```
 
 ---
 
 ## Sample Dataset - What's Inside
 
-As part of my proposal, I have already begun preliminary data collection. The sample dataset contains four sheets:
+As part of my proposal, I have already begun preliminary data collection. The sample dataset contains four CSV files:
 
-| Sheet | Rows | Description |
+| File | Rows | Description |
 |---|---|---|
-| **institutions** | 20 | Universities and bootcamps known to teach Kotlin, across 6 regions |
-| **courses** | 20 | Verified online courses from Coursera, Udemy, JetBrains Academy, edX, and more |
-| **educators** | 15 | Illustrative survey-style data based on commonly reported educator experiences |
-| **trends_over_time** | 21 | Year-by-year Kotlin education growth data (2017–2025), sourced from JetBrains surveys |
+| `institutions.csv` | 20 | Universities and bootcamps known to teach Kotlin, across 6 regions |
+| `courses.csv` | 20 | Verified online courses from Coursera, Udemy, JetBrains Academy, edX, and more |
+| `educators.csv` | 15 | Illustrative survey-style data based on commonly reported educator experiences |
+| `trends_over_time.csv` | 21 | Year-by-year Kotlin education growth (2017–2025), sourced from JetBrains surveys |
 
 Every row is tagged with a **confidence level** - Verified, Inferred, or Self-reported and a source reference. See [`research/sources.md`](research/sources.md) for full source documentation.
 
-> **Note:** The Educators sheet contains illustrative data modelled on real community discussions, not live survey responses. Primary data collection from real educators will begin in Week 1 of the GSoC project.
+> **Note:** The educators dataset contains illustrative data modelled on real community discussions, not live survey responses. Primary data collection from real educators will begin in Week 1 of the GSoC project.
 
 ---
 
-## Research Design (Summary)
+## Research Design
 
-I'm using a **mixed-methods approach** combining:
-
-- **Quantitative data** - counts, distributions, platform metrics, year-on-year trends
-- **Qualitative data** - educator surveys, interviews, community discussions
+I use a **mixed-methods approach** combining quantitative data (counts, distributions, trends) with qualitative insights (educator experiences, curriculum gaps) because some questions require measurement and others require context.
 
 **Three core research questions:**
 1. Where is Kotlin taught? - institutions, geographies, platforms
 2. How is Kotlin taught? - curriculum depth, tools, course levels
 3. Where are the gaps? - underserved regions, missing topics, adoption barriers
 
+**Scope covers:**
+- Degree-granting universities
+- Online learning platforms (Coursera, Udemy, JetBrains Academy, Google Developers Program, etc.)
+- Coding bootcamps
+- Self-learning guides
 
+---
+
+## Data Retrieval Strategy
+
+**Level 1 - Primary Sources (collected directly)**
+- Educator surveys via a structured Google Form targeting university teachers, bootcamp facilitators, and online course developers
+- Targeted outreach to CS department heads at universities worldwide, especially underrepresented regions
+- Online interviews with Kotlin educators
+
+**Level 2 - Secondary Sources**
+- University course catalogues
+- JetBrains Kotlin Ecosystem Survey
+- Course listings on Coursera, Udemy, JetBrains Academy, etc.
+- Google Scholar for academic papers on Kotlin in education
+- GitHub repositories tagged with Kotlin and education-related topics
+- Community forums - Kotlin Slack, Reddit r/Kotlin, Stack Overflow trends
+
+**Level 3 - Web Research**
+- LinkedIn search for instructors with Kotlin teaching experience
+- Cross-referencing data across sources to verify and fill gaps
+
+---
+
+## Project Timeline
+
+| Period | Tasks | Hours |
+|---|---|---|
+| **Week 1–2** | Finalize research questions and survey. Identify 50+ target institutions. Set up dataset templates. Begin secondary source cataloguing. | 20 hrs |
+| **Week 3–5** | Launch educator surveys and outreach. Collect course listings from all major platforms. Search university catalogues. Run GitHub and academic paper search. | 60 hrs |
+| **Week 6–7** | Clean and structure all collected data. Resolve duplicates, fill gaps via follow-up outreach, tag and document all sources. | 30 hrs |
+| **Week 8–9** | Analyze datasets - geographic distribution, curriculum depth, platform trends, gap analysis. Create charts and visualizations. | 35 hrs |
+| **Week 10** | Write the Kotlin in Education report. Format and publish datasets. | 25 hrs |
+| **Buffer** | Mentor review cycles, revisions, and unexpected delays. | 5 hrs |
+
+---
+
+## Expected Deliverables
+
+- **Kotlin in Education Report** - a structured, publicly available document covering geographic trends, platform analysis, curriculum gaps, and strategic recommendations
+- **Four Reusable Datasets (CSV)** - institutions, courses, educators, and trends, available for internal and public use
+- **Public GitHub Repository** - all methodology, data, and documentation published openly
+
+---
