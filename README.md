@@ -10,11 +10,14 @@ This repository contains my GSoC 2026 proposal and preliminary research for the 
 **Ved Saxena** | B.Tech CSE, AKTU, India | [vedsaxena19458@gmail.com](mailto:vedsaxena19458@gmail.com) | [github.com/riggedved](https://github.com/riggedved)
 
 I have been programming in Kotlin for the past year, primarily in Android Development. Java was my first programming language, introduced to me in high school, back then I hadn't even heard of Kotlin. 
+
 I have forever had an urge to be different. Most of my college was doing web development and I knew for a fact I’m not gonna do that. I started exploring and found out not many people are practicing app development here. 
 So, I started app development and got introduced to Kotlin and how it's related to Java, a big plus point for me. I, primarily, referred to YouTube channels, such as Philipp Lackner and Cheezy Code, as my University didn't have any particular course for it (making me realise how big of a gap actually exists in the education sector regarding Kotlin).
+
 Since my first year in college, I have been throwing different things at the wall to see which one sticks, and cinematography is something I got really interested in. I started photography and then filming videos itself and I’m really proud to share that by the time someone would be reading this proposal, my first short film would be out.
 In this whole process I figured out, writing is amongst the best eigen skills one could learn and I was already writing scripts for my videos, so why not double down on it.
 I started working as a content manager at Mathongo and now I’m working as a content writer at Legal4sure, where I independently research technical regulatory topics and publish blogs on them.
+
 All of this just makes me a perfect fit for this project and I want to give in more than my best efforts and also to actually contribute to narrowing the gap between academic teaching and practical application. 
 
 
