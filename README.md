@@ -1,7 +1,7 @@
 # Kotlin Education Landscape Report
-### Google Summer of Code 2026 — Kotlin Foundation
+### Google Summer of Code 2026 - Kotlin Foundation
 
-This repository contains my preliminary research for the **Kotlin in Education Landscape Report** — a project under the Kotlin Foundation that aims to create the first structured, data-driven overview of where and how Kotlin is taught worldwide.
+This repository contains my preliminary research for the **Kotlin in Education Landscape Report** - a project under the Kotlin Foundation that aims to create the first structured, data-driven overview of where and how Kotlin is taught worldwide.
 
 ---
 
@@ -55,7 +55,7 @@ Every row is tagged with a **confidence level** — Verified, Inferred, or Self-
 
 ## Research Design (Summary)
 
-I use a **mixed-methods approach** combining:
+I'm using a **mixed-methods approach** combining:
 
 - **Quantitative data** — counts, distributions, platform metrics, year-on-year trends
 - **Qualitative data** — educator surveys, interviews, community discussions
@@ -64,3 +64,5 @@ I use a **mixed-methods approach** combining:
 1. Where is Kotlin taught? — institutions, geographies, platforms
 2. How is Kotlin taught? — curriculum depth, tools, course levels
 3. Where are the gaps? — underserved regions, missing topics, adoption barriers
+
+
