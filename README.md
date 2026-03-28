@@ -44,17 +44,12 @@ Kotlin-Education-Landscape-Report-GSOC-2026/
 │
 ├── README.md
 │
-├── proposal/
-│   └── gsoc_proposal.pdf            ← Full GSoC proposal document
-│
 ├── data/
-│   ├── institutions.csv             ← Universities and bootcamps teaching Kotlin
-│   ├── courses.csv                  ← Online platform course listings
-│   ├── educators.csv                ← Educator survey-style data
-│   └── trends_over_time.csv         ← Year-by-year Kotlin education growth
-│
-└── research/
-    └── sources.md                   ← All sources used in research and dataset
+    ├── institutions.csv             ← Universities and bootcamps teaching Kotlin
+    ├── courses.csv                  ← Online platform course listings
+    ├── educators.csv                ← Educator survey-style data
+    └── trends_over_time.csv         ← Year-by-year Kotlin education growth
+
 ```
 
 ---
